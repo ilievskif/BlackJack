@@ -1,7 +1,7 @@
 # BlackJack
 BlackJack game in JavaScript
 
-#You can play [here](https://ilievskif.github.io/BlackJack/)!
+# You can play [here](https://ilievskif.github.io/BlackJack/)!
 
 Blackjack is the American version of a popular global banking game known as Twenty-One, whose relatives include Pontoon and Vingt-et-Un.[1] It is a comparing card game between one or more players and a dealer, where each player in turn competes against the dealer. Players do not compete against each other. It is played with one or more decks of 52 cards, and is the most widely played casino banking game in the world.
 
@@ -9,10 +9,10 @@ Players are each dealt two cards, face up or down depending on the casino and th
 
 Once all the players have completed their hands, it is the dealer's turn. The dealer hand will not be completed if all players have either busted or received blackjacks. The dealer then reveals the hidden card and must hit until the cards total up to 17 points. At 17 points or higher the dealer must stay. (At most tables the dealer also hits on a "soft" 17, i.e. a hand containing an ace and one or more other cards totaling six.) You are betting that you have a better hand than the dealer. The better hand is the hand where the sum of the card values is closer to 21 without exceeding 21. The detailed outcome of the hand follows:
 
-*If the player is dealt an Ace and a ten-value card (called a "blackjack" or "natural"), and the dealer does not, the player wins and usually receives a bonus.
-If the player exceeds a sum of 21 ("busts"); the player loses, even if the dealer also exceeds 21.
-If the dealer exceeds 21 ("busts") and the player does not; the player wins.
-If the player attains a final sum higher than the dealer and does not bust; the player wins.
-If both dealer and player receive a blackjack or any other hands with the same sum, called a "push", no one wins.*
+**- If the player is dealt an Ace and a ten-value card (called a "blackjack" or "natural"), and the dealer does not, the player wins and usually receives a bonus.
+**- If the player exceeds a sum of 21 ("busts"); the player loses, even if the dealer also exceeds 21.
+**- If the dealer exceeds 21 ("busts") and the player does not; the player wins.
+**- If the player attains a final sum higher than the dealer and does not bust; the player wins.
+**- If both dealer and player receive a blackjack or any other hands with the same sum, called a "push", no one wins.
 
-##Read more about the game at [Wikipedia](https://en.wikipedia.org/wiki/Blackjack).
+## Read more about the game at [Wikipedia](https://en.wikipedia.org/wiki/Blackjack).
