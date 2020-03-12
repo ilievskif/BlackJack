@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BlackJack Game in JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatx:700"> -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" defer></script>
+    <script type ="text/javascript" src="blackjack.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <p class="title">Press start to play BlackJack!</p>
+
+        <div>
+            <h2 class ="overview">Blacjack Game overview:</h2>
+            <p class ="description">
+                
+                The objective of the game is to beat the dealer in one of the following ways:</br>
+                
+                Get 21 points on the player's first two cards (called a "blackjack"), without a dealer blackjack;</br> 
+                Reach a final score higher than the dealer without exceeding 21; or</br>
+                Let the dealer draw additional cards until their hand exceeds 21</p>
+        </div>
+
+        <div class="console">
+            <a href="javascript:void(0);" id="start">Start!</a>
+            <a href="javascript:void(0);" id="reset">Reset!</a>
+        </div>
+
+    </header>
+
+    <div class="centered">
+
+
+        <div class="results">
+
+            <div class="dealer">
+                <h1>Dealer's Hand:</h1>
+                <!-- Inline style to keep Player's Hand in the middle of the table-->
+                <div class="dealers_cards" style="height:96px">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="score"></div>
+
+            </div>
+
+            <div class="player">
+                <h1>Player's Hand:</h1>
+                <div class="players_cards">
+                    <ul>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="pscore"></div>
+
+    <div class="gameConsole" style="visibility: hidden;">
+        <a href="javascript:void(0);" id="hit">Hit!</a>
+        <a href="javascript:void(0);" id="stand">Stand!</a>
+
+    </div>
+
+
+    
+
+   
+    <footer>
+        <p>BlackJack Game written in JavaScript. Still in development...
+        </br>
+        Filip Ilievski @filip.ilievski96@gmail.com</p>
+    </footer>
+
+
+</body>
+
+</html>
+
